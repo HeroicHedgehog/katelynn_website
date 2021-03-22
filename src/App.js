@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+import mazie from './Pictures/mazie.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={mazie} className="App-logo" alt="logo" />
         <p>
           KATELYNN'S WEBSITE
         </p>
