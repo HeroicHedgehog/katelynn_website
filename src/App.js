@@ -12,13 +12,11 @@ function App() {
         <img src={neeko} className="App-logo" alt="logo" />
         <img src={family} className="App-logo" alt="logo" />
         <img src={together} className="App-logo" alt="logo" />
-        <p>
-          KATELYNN'S WEBSITE
-        </p>
-        <p>
+      </header>
+      <p className="Header-text">
+          KATELYNN'S WEBSITE<br/>
           Welcome to my website! Feel free to look around!
         </p>
-      </header>
     </div>
   );
 }
