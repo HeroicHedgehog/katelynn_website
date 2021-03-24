@@ -8,14 +8,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={mazie} className="App-logo" alt="logo" />
-        <img src={neeko} className="App-logo" alt="logo" />
-        <img src={family} className="App-logo" alt="logo" />
         <img src={together} className="App-logo" alt="logo" />
+        <img src={neeko} className="App-logo" alt="logo" />
+        <img src={mazie} className="App-logo" alt="logo" />
+        <img src={family} className="App-logo" alt="logo" />
       </header>
       <p className="Header-text">
           KATELYNN'S WEBSITE<br/>
-          Welcome to my website! Feel free to look around!
+          Welcome to my website!<br/>Feel free to look around!
         </p>
     </div>
   );
