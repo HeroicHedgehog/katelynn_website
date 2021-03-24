@@ -22,7 +22,7 @@
   position: absolute;
   top: 0%;
   left: 27.5%;
-  background-color:  #00000091;
+  background-color:   #006d7c7a;
   min-height: 50vh;
   display: flex;
   flex-direction: column;
@@ -31,10 +31,20 @@
   text-align: center;
   font-family: "Lucida Handwriting";
   font-size: calc(20px + 2vmin);
-  color: rgb(0, 155, 245);
+  color: rgb(255, 255, 255);
   padding-left: 150px;
   padding-right: 150px;
-  /* text-shadow: black; */
+  text-shadow: rgb(0, 0, 0) 2px 0 5px;}
+
+.App-body {
+  background-image: linear-gradient(180deg, #006e7c, #5727c7);
+  min-height: 120vh;
+  display: flex;
+  flex-direction: row;
+  align-items: normal;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: white;
 }
 
 .App-link {

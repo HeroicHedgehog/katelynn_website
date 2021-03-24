@@ -17,8 +17,11 @@ function App() {
           KATELYNN'S WEBSITE<br/>
           Welcome to my website!<br/>Feel free to look around!
         </p>
+      <div className="App-body">
+    
+      </div>
     </div>
-  );
+   ); 
 }
 
 export default App;
