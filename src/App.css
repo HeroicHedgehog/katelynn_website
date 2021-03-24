@@ -47,6 +47,24 @@
   color: white;
 }
 
+.Body-text {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  background-color:   #eff4f559;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Lucida Handwriting";
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+  padding-left: 150px;
+  padding-right: 150px;
+  text-shadow: rgb(0, 0, 0) 4px 0 5px;}
+
 .App-link {
   color: #61dafb;
 }

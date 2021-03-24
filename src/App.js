@@ -18,7 +18,12 @@ function App() {
           Welcome to my website!<br/>Feel free to look around!
         </p>
       <div className="App-body">
-    
+        <p className="Body-text">
+          ABOUT ME<br/>
+          I'm 27 Years old<br/>I live in Nashville, TN<br/>I've been married for 4.5 years<br/>
+          I graduated with a BA in Information Systems in 2017<br/>I am super bubbly and fun<br/>
+          I smile all the time<br/>May or may not be a super hero<br/>
+        </p>
       </div>
     </div>
    ); 
