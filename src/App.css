@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Caveat&family=Cinzel+Decorative&family=Crafty+Girls&family=Dancing+Script&family=Gloria+Hallelujah&family=Homemade+Apple&family=Lakki+Reddy&family=Love+Ya+Like+A+Sister&family=Nanum+Pen+Script&family=Satisfy&family=Snowburst+One&display=swap');
+
 .App {
   text-align: center;
 }
@@ -29,7 +31,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-family: "Lucida Handwriting";
+  font-family:  'Crafty Girls';
   font-size: calc(20px + 2vmin);
   color: rgb(255, 255, 255);
   padding-left: 150px;
@@ -58,7 +60,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-family: "Lucida Handwriting";
+  font-family: 'Gloria Hallelujah';
   font-size: calc(10px + 2vmin);
   color: rgb(255, 255, 255);
   padding-left: 150px;
