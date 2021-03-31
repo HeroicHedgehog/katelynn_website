@@ -24,6 +24,15 @@ function App() {
           I graduated with a BA in Information Systems in 2017<br/>I am super bubbly and fun<br/>
           I smile all the time<br/>May or may not be a super hero<br/>
         </p>
+        <p className="Mini-header-text">
+          SKILLS<br/>
+        </p>
+        <p className="Skills-text">
+          C<br/>JavaScript<br/>React<br/>EasyGui<br/>VSCode<br/>HTML/CSS<br/>Microsoft Office Suite
+        </p>
+        <p className="Skills-text2">
+        Android<br/>Customer Communication<br/>Product Management<br/>Risk Assessment<br/>Java<br/>Windows<br/><br/>
+        </p>
       </div>
     </div>
    ); 

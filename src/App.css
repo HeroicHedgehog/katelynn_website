@@ -67,6 +67,59 @@
   padding-right: 150px;
   text-shadow: rgb(0, 0, 0) 4px 0 5px;}
 
+  .Skills-text {
+    position: absolute;
+    top: 115%;
+    left: 20%;
+    background-color:   #eff4f559;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+    font-family: 'Annie Use Your Telescope';
+    font-size: calc(10px + 2vmin);
+    color: rgb(255, 255, 255);
+    padding-left: 100px;
+    padding-right: 201px;
+    text-shadow: rgb(0, 0, 0) 4px 0 5px;}
+
+    .Skills-text2 {
+      position: absolute;
+      top: 115%;
+      left: 48%;
+      background-color:   #eff4f559;
+      min-height: 50vh;
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      justify-content: center;
+      text-align: left;
+      font-family: 'Annie Use Your Telescope';
+      font-size: calc(10px + 2vmin);
+      color: rgb(255, 255, 255);
+      padding-left: 100px;
+      padding-right: 240px;
+      text-shadow: rgb(0, 0, 0) 4px 0 5px;}
+
+      .Mini-header-text {
+        position: absolute;
+        top: 92%;
+        left: 37%;
+        min-height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family:  'Crafty Girls';
+        font-size: calc(20px + 2vmin);
+        color: rgb(255, 255, 255);
+        padding-left: 150px;
+        padding-right: 150px;
+        text-shadow: rgb(0, 0, 0) 2px 0 5px;}
+
 .App-link {
   color: #61dafb;
 }
