@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Caveat&family=Cinzel+Decorative&family=Crafty+Girls&family=Dancing+Script&family=Gloria+Hallelujah&family=Homemade+Apple&family=Lakki+Reddy&family=Love+Ya+Like+A+Sister&family=Nanum+Pen+Script&family=Satisfy&family=Snowburst+One&display=swap');
 
 .App {
+  /* text-align: center; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  background-image: linear-gradient(180deg, #006e7c, #5727c7);
+
 }
 
 .App-logo {
@@ -21,9 +29,8 @@
 }
 
 .Header-text {
-  position: absolute;
-  top: 0%;
-  left: 27.5%;
+  position: relative;
+  top: auto;
   background-color:   #006d7c7a;
   min-height: 50vh;
   display: flex;
@@ -34,18 +41,19 @@
   font-family:  'Crafty Girls';
   font-size: calc(20px + 2vmin);
   color: rgb(255, 255, 255);
-  padding-left: 150px;
-  padding-right: 150px;
+  width: 700px;
+  height: 500px;
   text-shadow: rgb(0, 0, 0) 2px 0 5px;}
 
 .App-body {
-  background-image: linear-gradient(180deg, #006e7c, #5727c7);
+  /* background-image: linear-gradient(180deg, #006e7c, #5727c7); */
   min-height: 120vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: normal;
   justify-content: center;
   font-size: calc(20px + 2vmin);
+  width: 100%;
   color: white;
 }
 
