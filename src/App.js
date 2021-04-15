@@ -48,16 +48,21 @@ function App() {
             SKILLS<br/>
           </div>
           <div className="Skills-text">
-            <p>C <ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar></p>
-            <p>JavaScript <ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar></p>
-            <p>React <ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar></p>
-            <p>EasyGui <ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar></p>
-            <p>VSCode <ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar></p>
-            <p>HTML/CSS <ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar></p>
-            <p>Microsoft Office Suite <ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar></p>
+            <p>C <ProgressBar></ProgressBar></p><br/>
+            <p>JavaScript <ProgressBar></ProgressBar></p>
+            <p>React <ProgressBar></ProgressBar></p>
+            <p>EasyGui <ProgressBar></ProgressBar></p>
+            <p>VSCode <ProgressBar></ProgressBar></p>
+            <p>HTML/CSS <ProgressBar></ProgressBar></p>
+            <p>Microsoft Office Suite <ProgressBar></ProgressBar></p>
           </div>
           <div className="Skills-text">
-          Android<br/>Customer Communication<br/>PSroduct Management<br/>Risk Assessment<br/>Java<br/>Windows<br/><br/>
+          Android <ProgressBar></ProgressBar> <br/>
+          Customer Communication<br/>
+          PSroduct Management<br/>
+          Risk Assessment<br/>
+          Java<br/>
+          Windows<br/><br/>
           </div>
         {/* </div> */}
         <button onClick = {sendToDiscord}>Message me here</button>

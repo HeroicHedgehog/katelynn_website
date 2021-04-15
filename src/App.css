@@ -19,7 +19,6 @@
 
 .Progress-bar {
   height: 30px;
-  pointer-events: none;
 }
 
 .App-header {
@@ -81,7 +80,7 @@
     position: relative;
     background-color:   #eff4f559;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
