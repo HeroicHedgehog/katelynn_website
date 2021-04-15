@@ -2,7 +2,9 @@ import mazie from './Pictures/mazie.jpg';
 import neeko from './Pictures/neeko.jpg';
 import family from './Pictures/family.jpg';
 import together from './Pictures/together.jpg';
+import cafe from './Pictures/ios-cafe.svg';
 import ProgressBar from './ProgressBar'
+import WarningBar from './WarningBar'
 import './App.css';
 import axios from 'axios';
 
@@ -20,7 +22,7 @@ function App() {
 }
   return (
     <div className="App">
-      <ProgressBar text = {"Warning: This website is under construction"}></ProgressBar>
+      <WarningBar text = {"Warning: This website is under construction!"}></WarningBar>
       <header className="App-header">
         <img src={together} className="App-logo" alt="logo" />
         <img src={neeko} className="App-logo" alt="logo" />
@@ -46,9 +48,15 @@ function App() {
             SKILLS<br/>
           </div>
           <div className="Skills-text">
-            C<br/>JavaScript<br/>React<br/>EasyGui<br/>VSCode<br/>HTML/CSS<br/>Microsoft Office Suite
+            <p>C <ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar></p>
+            <p>JavaScript <ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar></p>
+            <p>React <ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar></p>
+            <p>EasyGui <ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar></p>
+            <p>VSCode <ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar></p>
+            <p>HTML/CSS <ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar></p>
+            <p>Microsoft Office Suite <ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar><ProgressBar></ProgressBar></p>
           </div>
-          <div className="Skills-text2">
+          <div className="Skills-text">
           Android<br/>Customer Communication<br/>PSroduct Management<br/>Risk Assessment<br/>Java<br/>Windows<br/><br/>
           </div>
         {/* </div> */}

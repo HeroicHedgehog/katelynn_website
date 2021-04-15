@@ -17,6 +17,11 @@
   pointer-events: none;
 }
 
+.Progress-bar {
+  height: 30px;
+  pointer-events: none;
+}
+
 .App-header {
   background-color: #006e7c;
   min-height: 60vh;
@@ -76,15 +81,15 @@
     position: relative;
     background-color:   #eff4f559;
     display: flex;
-    flex-direction: column;
-    align-items: left;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     font-family: 'Annie Use Your Telescope';
     font-size: calc(10px + 2vmin);
     color: rgb(255, 255, 255);
     text-shadow: rgb(0, 0, 0) 4px 0 5px;
-    width: 600px;
+    width: 700px;
     height: 500px;
     }
 
