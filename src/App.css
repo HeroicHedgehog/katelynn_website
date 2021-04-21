@@ -34,11 +34,11 @@
 
 .Header-text {
   position: relative;
-  top: auto;
+  /* top: auto; */
   background-color:   #006d7c7a;
-  min-height: 50vh;
+  /* min-height: 50vh; */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -50,11 +50,10 @@
   text-shadow: rgb(0, 0, 0) 2px 0 5px;}
 
 .App-body {
-  /* background-image: linear-gradient(180deg, #006e7c, #5727c7); */
   min-height: 120vh;
   display: flex;
   flex-direction: column;
-  align-items: normal;
+  align-items: center;
   justify-content: center;
   font-size: calc(20px + 2vmin);
   width: 100%;
@@ -76,6 +75,15 @@
   height: 500px;
   text-shadow: rgb(0, 0, 0) 4px 0 5px;}
 
+  .Skills-body {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
   .Skills-text {
     position: relative;
     background-color:   #eff4f559;
@@ -89,23 +97,23 @@
     color: rgb(255, 255, 255);
     text-shadow: rgb(0, 0, 0) 4px 0 5px;
     width: 700px;
-    height: 500px;
+    height: 600px;
     }
 
     .Skills-text2 {
-      position: relative;
-      background-color: #eff4f559;
-      display: flex;
-      flex-direction: column;
-      align-items: left;
-      justify-content: center;
-      text-align: left;
-      font-family: 'Annie Use Your Telescope';
-      font-size: calc(10px + 2vmin);
-      color: rgb(255, 255, 255);
-      text-shadow: rgb(0, 0, 0) 4px 0 5px;
-      width: 600px;
-      height: 500px;
+    position: relative;
+    background-color: #eff4f559;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Annie Use Your Telescope';
+    font-size: calc(10px + 2vmin);
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 4px 0 5px;
+    width: 700px;
+    height: 600px;
     }
 
       .Mini-header-text {
