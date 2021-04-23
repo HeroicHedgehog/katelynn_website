@@ -33,8 +33,8 @@
 }
 
 .Header-text {
-  position: relative;
-  /* top: auto; */
+  position: absolute;
+  top: 3%;
   background-color:   #006d7c7a;
   /* min-height: 50vh; */
   display: flex;
