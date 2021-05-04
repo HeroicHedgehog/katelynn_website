@@ -12,6 +12,13 @@
 
 }
 
+label{
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Love Ya Like A Sister';
+}
+
 .App-logo {
   height: 60vmin;
   pointer-events: none;
@@ -34,7 +41,7 @@
 
 .Header-text {
   position: absolute;
-  top: 3%;
+  top: 1%;
   background-color:   #006d7c7a;
   /* min-height: 50vh; */
   display: flex;
@@ -42,11 +49,12 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-family:  'Crafty Girls';
+  font-family: 'Cinzel Decorative';
   font-size: calc(50px);
+  font-weight: bold;
   color: rgb(255, 255, 255);
-  width: 700px;
-  height: 500px;
+  width: 800px;
+  height: 200px;
   text-shadow: rgb(0, 0, 0) 2px 0 5px;}
 
 .App-body {
@@ -69,9 +77,10 @@
   justify-content: center;
   text-align: center;
   font-family: 'Love Ya Like A Sister';
-  font-size: calc(35px);
+  line-height: 1.5em;
+  font-size: 35px;
   color: rgb(255, 255, 255);
-  width: 1175px;
+  width: 1200px;
   height: 500px;
   text-shadow: rgb(0, 0, 0) 4px 0 5px;}
 
@@ -92,11 +101,11 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: 'Annie Use Your Telescope';
-    font-size: calc(30px);
+    font-family: 'Love Ya Like A Sister';
+    font-size: 30px;
     color: rgb(255, 255, 255);
     text-shadow: rgb(0, 0, 0) 4px 0 5px;
-    width: 700px;
+    width: 600px;
     height: 600px;
     }
 
@@ -108,11 +117,11 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: 'Annie Use Your Telescope';
-    font-size: calc(30px);
+    font-family: 'Love Ya Like A Sister';
+    font-size: 30px;
     color: rgb(255, 255, 255);
     text-shadow: rgb(0, 0, 0) 4px 0 5px;
-    width: 700px;
+    width: 600px;
     height: 600px;
     }
 
@@ -123,8 +132,8 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        font-family: 'Gloria Hallelujah';
-        font-size: calc(50px);
+        font-family: 'Cinzel Decorative';
+        font-size: 50px;
         color: rgb(255, 255, 255);
         text-shadow: rgb(0, 0, 0) 2px 0 5px;}
 
